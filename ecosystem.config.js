@@ -1,8 +1,7 @@
 module.exports = {
   apps : [{
-    name: 'Twitter',
+    name: 'twitter',
     script: './bin/www',
-    args: 'one two',
     instances: 'max',
     autorestart: true,
     watch: true,
