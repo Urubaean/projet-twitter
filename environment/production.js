@@ -1,4 +1,3 @@
-const path = require('path');
 
 module.exports = {
     dbUrl: 'mongodb+srv://lokki:aze@cluster0.wpajw.mongodb.net/twitter?retryWrites=true&w=majority',
