@@ -2,6 +2,6 @@ const path = require('path');
 
 module.exports = {
     dbUrl: 'mongodb+srv://lokki:aze@cluster0.wpajw.mongodb.net/twitter?retryWrites=true&w=majority',
-    cert: path.join(__dirname, ''),
-    key: path.join(__dirname, ''),
+    cert: ('/etc/letsencrypt/live/www.lokki-testproject.site/fullchain.pem'),
+    key: ('/etc/letsencrypt/live/www.lokki-testproject.site/privkey.pem')
 };
